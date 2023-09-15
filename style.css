@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.bg1 h2{
+   color: white;
+}
+.bg2 h2{
+    color: white;
+}
+.bg3 h2{
+    color: white;
+}
+.bg4 h2{
+    color:white;
+}
+.bg5 h2{
+    color: black;
+}
+.bg6 h2{
+    color: white;
+}
+.bg7 h2{
+    color:black;
+}
+.bg8 h2{
+    color:white;
+}
+.bg9 h2{
+    color:white;
+}
+.bg10 h2{
+    color: white;
+}
+.bg11 h2{
+    color: white;
+}
+.bg12 h2{
+    color: white;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300px;
+    margin:10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+}
+.container > div{
+    height:200px;
+    cursor:pointer;
+    background-position: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.container > div:hover
+{
+    opacity: 0.8;
+    transform: scale(0.97);
+}
+.bg1{
+    background-image: url(images/spring.jpg) ;
+}
+.bg2{
+    background-image:url(images/summer.jpg);
+    
+}
+.bg3{
+    background-image:url(images/rainy.jpg);
+}
+.bg4{
+    background-image: url(images/autumn.jpg);
+}
+.bg5{
+    background-image: url(images/prewinter.webp);
+}
+.bg6{
+    background-image:url(images/winter.jpg);
+}
+.bg7{
+    background-image:url(images/winter1.jpg);
+}
+.bg8{
+    background-image: url(images/prewinter2.jpg);
+}
+.bg9{
+    background-image:url(images/autumn1.jpg);
+}
+.bg10{
+    background-image:url(images/rainy1.jpg);
+}
+.bg11{
+    background-image:url(images/summer1.png);
+}
+.bg12{
+    background-image:url(images/spring1.jpg);
+}
